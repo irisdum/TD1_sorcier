@@ -29,12 +29,14 @@ public class Main {
             int valeur3 = r2.nextInt(9);
             int valeur4= r2.nextInt(9);
             if(valeur3 !=valeur4){ // test pour eviter qu'un personnage ne s'attaque lui meme
-                System.out.println(l.get(valeur3).nom+" "+ l.get(valeur3).pointVie+ " PV " + " attaque " + l.get(valeur4).nom+" "+l.get(valeur4).pointVie+ " PV ");
+                if (l.get(valeur3).mort()==false && l.get(valeur4).mort()==false){
+                //System.out.println(l.get(valeur3).nom+" "+ l.get(valeur3).pointVie+ " PV " + " attaque " + l.get(valeur4).nom+" "+l.get(valeur4).pointVie+ " PV ");
                 l.get(valeur3).attaque(l.get(valeur4));
-                l.get(valeur3).mort();
-                l.get(valeur4).mort();
+                //l.get(valeur3).mort();
+                //l.get(valeur4).mort();
                 System.out.println(l.get(valeur3).nom+" "+ l.get(valeur3).pointVie+ " PV "+ " et "+ l.get(valeur4).nom+" " +l.get(valeur4).pointVie+ " PV ");
         }
+            }
 
 
 
