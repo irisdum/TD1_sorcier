@@ -23,11 +23,11 @@ public class Sorcier extends Personnage implements Victime {
 
     public void attaque(Personnage m) {
         if (this.mort()==false && m.mort()==false){
-            System.out.println(this.nom+ " le sorcier " + this.pointVie+" PV"+ " attaque "+ m.nom+" "+ this.pointVie+" PV" );
+            //System.out.println(this.nom+ " a " + this.pointVie+" PV"+ " attaque "+ m.nom+" "+ this.pointVie+" PV" );
             m.subitCharme(this.pouvoir * this.pointVie);
-            System.out.println("Le sorcier à un pouvoir de "+ this.pouvoir);
+            //System.out.println("Le sorcier à un pouvoir de "+ this.pouvoir);
             this.addVie(m.subitCharme(this.pouvoir * this.pointVie));
-            System.out.println(this.nom+" a " +this.pointVie+ " PV");
+            //System.out.println(this.nom+" a " +this.pointVie+ " PV");
 
         }
 

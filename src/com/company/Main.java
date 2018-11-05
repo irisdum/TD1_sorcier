@@ -4,20 +4,14 @@ import java.util.*;
 public class Main {
 
     public static void main(String[] args) {
-        //System.out.println("Hello");
 
-        //Monstre m = new Monstre("Clem",10);
-        //Sorcier s= new Sorcier("Iris", 16);
-        //s.attaque(m);
-       // System.out.println(s.pouvoir);
-        String sorcierListe[]={"Clem","Marg","Eva","Mylan","Iris"};
-        String monstreListe[]={"Stan","Nathan","Lucas","Hugues","Hugo"};
+        String sorcierListe[]={"s1","s2","s3","s4","s5"};
+        String monstreListe[]={"m1","m2","m3","m4","m5"};
         ArrayList <Personnage> l=new ArrayList<Personnage>();
-        //ArrayList <Sorcier> q= new ArrayList<Sorcier>();
         Random r= new Random ();
-        //System.out.println(sorcierListe[2]);
 
         for(int i=0;i<5;i++) {
+            /** création du tableau contenant les monstres et les sorciers */
             float valeur = r.nextInt(100);
             float valeur2 = r.nextInt(100);
             Sorcier s = new Sorcier(sorcierListe[i], valeur);
@@ -25,12 +19,21 @@ public class Main {
             l.add(m);
             l.add(s);
         }
-        for (int i=0;i<20;i++) {
+
+        System.out.println("Le jeu commence : ");
+
+        for (int i=0;i<10;i++) {
+            /** Deux personnages tirés au sort s'attaque */
+
             Random r2 = new Random();
             int valeur3 = r2.nextInt(9);
             int valeur4= r2.nextInt(9);
-            if(valeur3 !=valeur4){
-            l.get(valeur3).attaque(l.get(valeur4));
+            if(valeur3 !=valeur4){ // test pour eviter qu'un personnage ne s'attaque lui meme
+                System.out.println(l.get(valeur3).nom+" "+ l.get(valeur3).pointVie+ " PV " + " attaque " + l.get(valeur4).nom+" "+l.get(valeur4).pointVie+ " PV ");
+                l.get(valeur3).attaque(l.get(valeur4));
+                l.get(valeur3).mort();
+                l.get(valeur4).mort();
+                System.out.println(l.get(valeur3).nom+" "+ l.get(valeur3).pointVie+ " PV "+ " et "+ l.get(valeur4).nom+" " +l.get(valeur4).pointVie+ " PV ");
         }
 
 
