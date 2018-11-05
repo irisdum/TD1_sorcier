@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ae7c5c1-f90f-41b2-b2e1-75803defe981" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Sorcier.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Sorcier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magicien/com/company/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magicien/com/company/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Magicien/com/company/Sorcier.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Magicien/com/company/Sorcier.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,14 +28,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5676" />
-          <entry key="txt" value="17" />
+          <entry key="java" value="5685" />
+          <entry key="txt" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5676" />
-          <entry key="PLAIN_TEXT" value="17" />
+          <entry key="JAVA" value="5685" />
+          <entry key="PLAIN_TEXT" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -57,8 +58,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="263">
+              <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
             </state>
           </provider>
         </entry>
@@ -221,7 +222,7 @@
       <workItem from="1537280176788" duration="3354000" />
       <workItem from="1537370916481" duration="2353000" />
       <workItem from="1537624687770" duration="1593000" />
-      <workItem from="1541406501941" duration="239000" />
+      <workItem from="1541406501941" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="&quot;Dernière version&quot;">
       <created>1541406528663</created>
@@ -230,11 +231,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541406528663</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&quot;Dernière version &quot;">
+      <created>1541406848266</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1541406848266</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23935000" />
+    <option name="totallyTimeSpent" value="24313000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1260" height="693" extended-state="0" />
@@ -249,11 +257,11 @@
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="2" sideWeight="0.500821" side_tool="true" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49917898" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="8" weight="0.3294509" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
@@ -278,7 +286,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;Dernière version&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dernière version&quot;" />
+    <MESSAGE value="&quot;Dernière version &quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Dernière version &quot;" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/company/Magicien.java">
@@ -338,8 +347,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="263">
+          <caret line="48" lean-forward="true" selection-start-line="48" selection-end-line="48" />
         </state>
       </provider>
     </entry>
